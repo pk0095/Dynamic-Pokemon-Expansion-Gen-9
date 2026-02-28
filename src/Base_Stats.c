@@ -767,7 +767,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_MERCILESS,
 		.ability2 = ABILITY_INTIMIDATE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_UNNERVE,
+		.hiddenAbility = ABILITY_GALEWINGS,
 		.noFlip = TRUE,
 	},
 
@@ -800,7 +800,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_MERCILESS,
 		.ability2 = ABILITY_INTIMIDATE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_UNNERVE,
+		.hiddenAbility = ABILITY_GALEWINGS,
 		.noFlip = TRUE,
 	},
 
@@ -1031,7 +1031,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_SHEERFORCE,
 		.ability2 = ABILITY_POISONPOINT,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_RIVALRY,
+		.hiddenAbility = ABILITY_DAZZLING,
 		.noFlip = TRUE,
 	},
 
@@ -3143,7 +3143,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_ROCKHEAD,
 		.ability2 = ABILITY_STURDY,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_WEAKARMOR,
+		.hiddenAbility = ABILITY_GALEWINGS,
 		.noFlip = TRUE,
 	},
 
@@ -6872,7 +6872,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_ROCKHEAD,
 		.ability2 = ABILITY_STURDY,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_SHEERFORCE,
+		.hiddenAbility = ABILITY_GALEWINGS,
 		.noFlip = TRUE,
 	},
 
@@ -9444,7 +9444,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_WATER_1,
 		.eggGroup2 = EGG_GROUP_BUG,
 		.ability1 = ABILITY_SWIFTSWIM,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_WATERBUBBLE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_RAINDISH,
 		.noFlip = TRUE,
@@ -9477,7 +9477,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_WATER_1,
 		.eggGroup2 = EGG_GROUP_BUG,
 		.ability1 = ABILITY_INTIMIDATE,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_WATERBUBBLE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_UNNERVE,
 		.noFlip = TRUE,
@@ -12578,7 +12578,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_SLOW,
 		.eggGroup1 = EGG_GROUP_UNDISCOVERED,
 		.eggGroup2 = EGG_GROUP_UNDISCOVERED,
-		.ability1 = ABILITY_DELTASTREAM,
+		.ability1 = ABILITY_CLOUDNINE,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NONE,
@@ -14462,7 +14462,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_DAUNTLESSSHIELD, //FACESHIELD
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_SOUNDPROOF,
+		.hiddenAbility = ABILITY_SANDRUSH,
 		.noFlip = TRUE,
 	},
 
@@ -14495,7 +14495,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_DAUNTLESSSHIELD, //FACESHIELD
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_SOUNDPROOF,
+		.hiddenAbility = ABILITY_SANDRUSH,
 		.noFlip = TRUE,
 	},
 
@@ -17333,7 +17333,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_OVERGROW,
 		.ability2 = ABILITY_CONTRARY,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_CHLOROPHYLL,
+		.hiddenAbility = ABILITY_GALEWINGS, //SLIPPERY TAIL
 		.noFlip = TRUE,
 	},
 
@@ -18917,7 +18917,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_POISONPOINT,
 		.ability2 = ABILITY_SPEEDBOOST,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_SWARM,
+		.hiddenAbility = ABILITY_PARENTALBOND,
 		.noFlip = TRUE,
 	},
 
@@ -20796,9 +20796,9 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_AMORPHOUS,
 		.eggGroup2 = EGG_GROUP_AMORPHOUS,
 		.ability1 = ABILITY_LEVITATE,
-		.ability2 = ABILITY_SWIFTSWIM,
+		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_SWIFTSWIM,
 		.noFlip = TRUE,
 	},
 
@@ -22844,7 +22844,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_DRAGONSMAW,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_MULTISCALE,
 		.noFlip = TRUE,
 	},
 
@@ -24032,7 +24032,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_REGENERATOR,
 		.ability2 = ABILITY_ANGERPOINT, //WINDRIDER
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_DEFIANT,
 		.noFlip = TRUE,
 	},
 
@@ -24065,7 +24065,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_BERSERK, //WINDPOWER
 		.ability2 = ABILITY_ANGERPOINT, //WINDRIDER
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_DEFIANT,
 		.noFlip = TRUE,
 	},
 
@@ -24096,9 +24096,9 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_UNDISCOVERED,
 		.eggGroup2 = EGG_GROUP_UNDISCOVERED,
 		.ability1 = ABILITY_INTIMIDATE,
-		.ability2 = ABILITY_SANDVEIL,
+		.ability2 = ABILITY_SHEERFORCE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_SANDVEIL,
 		.noFlip = TRUE,
 	},
 
@@ -24131,7 +24131,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_INTREPIDSWORD,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_JUSTIFIED,
 		.noFlip = TRUE,
 	},
 
@@ -26802,7 +26802,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -26835,7 +26835,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -26868,7 +26868,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -26901,7 +26901,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -26934,7 +26934,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -26967,7 +26967,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -27000,7 +27000,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -27033,7 +27033,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -27099,7 +27099,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -27132,7 +27132,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -27165,7 +27165,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -27198,7 +27198,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FAIRY,
 		.eggGroup2 = EGG_GROUP_FAIRY,
 		.ability1 = ABILITY_FLOWERVEIL,
-		.ability2 = ABILITY_NONE,
+		.ability2 = ABILITY_FAIRYAURA,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
@@ -28683,7 +28683,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_HUMAN_LIKE,
 		.eggGroup2 = EGG_GROUP_HUMAN_LIKE,
 		.ability1 = ABILITY_HUGEPOWER, //-ABILITY_PUREPOWER
-		.ability2 = ABILITY_HUGEPOWER, //-ABILITY_PUREPOWER
+		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_HUGEPOWER, //-ABILITY_PUREPOWER
 		.noFlip = TRUE,
@@ -33598,7 +33598,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_FIELD,
 		.eggGroup2 = EGG_GROUP_FIELD,
 		.ability1 = ABILITY_KEENEYE,
-		.ability2 = ABILITY_INSOMNIA,
+		.ability2 = ABILITY_TOUGHCLAWS,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NOGUARD,
 		.noFlip = TRUE,
@@ -34785,10 +34785,10 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_FIELD,
 		.eggGroup2 = EGG_GROUP_FIELD,
-		.ability1 = ABILITY_TOUGHCLAWS,
+		.ability1 = ABILITY_KEENEYE,
 		.ability2 = ABILITY_TOUGHCLAWS,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_TOUGHCLAWS,
+		.hiddenAbility = ABILITY_STEADFAST,
 		.noFlip = TRUE,
 	},
 
@@ -36767,7 +36767,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_FLASHFIRE,
 		.ability2 = ABILITY_FLAMEBODY,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_PARENTALBOND, //-ABILITY_HUNDREDLEGS
+		.hiddenAbility = ABILITY_SWARM,
 		.noFlip = TRUE,
 	},
 
@@ -44618,8 +44618,8 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_HUMAN_LIKE,
 		.eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-		.ability1 = ABILITY_STRONGJAW, //SHARPNESS
-		.ability2 = ABILITY_HUGEPOWER, //Supreme Overlord
+		.ability1 = ABILITY_HUGEPOWER, //SUPREME OVERLORD
+		.ability2 = ABILITY_STRONGJAW, //SHARPNESS
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_PRESSURE,
 		.noFlip = TRUE,
@@ -46169,7 +46169,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_ERRATIC,
 		.eggGroup1 = EGG_GROUP_GRASS,
 		.eggGroup2 = EGG_GROUP_DRAGON,
-		.ability1 = ABILITY_RIPEN,
+		.ability1 = ABILITY_INTIMIDATE,
 		.ability2 = ABILITY_REGENERATOR,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_STICKYHOLD,
